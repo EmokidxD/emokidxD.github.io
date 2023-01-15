@@ -1,0 +1,14 @@
+Package: com.emokid.diary
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Emokid <email@gmail.com>
+Depends libkitten, libGcUniversal, libPDDokdo
+Filename: /Diary.deb
+Size: 9,085,822
+MD5sum: f32306a441d93dc3a5a17ace528f038f
+SHA1: b4bee632cfeafdec61572b15f78dc5e7a527c7fB
+SHA256: 462d24bd0e1727a66fd6b3408166861466107523d417ed8c5ec075295949b40e
+Section: Tweaks
+Description: this is remade version of Diary for IOS 15! credit to litten.love.repo (Alexandra/Traurige)
+Author: Emokid <email@gmail.com>
+Name: Diary 📖 (Remade)
