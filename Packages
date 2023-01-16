@@ -14,3 +14,20 @@ Author: zx02
 Name: Frame
 Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
 Tags: compatible_min::ios14.0, compatible_max::ios15.0
+
+Package: com.cylinderreborn.ryannair05
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: EmoKid <gabemanson123@gmail.com>
+Filename:/packages/com.ryannair05.cylinderremade_0.0.4-beta_iphoneos-arm.deb
+Size: 104366
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+MD5sum: e39d20ec8104ed2840cba3eae4b7c1d4
+SHA1: 5cc7aeff823bdee3c1809cfbbc82b68520e495fd
+SHA256: cd9d265ac5918e3b67c19e69e1f2a153aaa8738350195413278e7d2d474bfd72
+Section: Tweaks
+Description: Make your icons dance
+Author: Ryan Nair
+Name: Cylinder Reborn
+Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
+Tags: compatible_min::ios14.0, compatible_max::ios15.0
