@@ -1,0 +1,21 @@
+Package: com.emokid.diary
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: EmoKid <email@gmail.com>
+Filename: ./pkg/emokid.diary_1.0.0_iphoneos-arm.deb
+Size: 3764610
+MD5sum: 3a38bbca2e024c2d579316b0d65b7432
+SHA1: 8d895079ce9892af98b49620cb4c4be55c65edc5
+SHA256: 505ea4e1095a3a6718c29eebffe88edbed2789514F6277F21a7a03699b60ca8b
+Section: Tweaks
+Homepage: https://emokidxd.github.io/
+Description: a Remade version of Diary! must love and credit goes to litten.love.repo ❤️ (Alexandra/Traurige)
+Tag: role::enduser
+Author: EmoKid
+Name: Diary 📖(Remade)
+Sileodepiction:
+Someotherentrytocontrol: True
+Sponsor: EmoKid's Tweaks <email@gmail.com>
+Tags: compatible_min::ios14.0, compatible_max::ios15.0
+
+
