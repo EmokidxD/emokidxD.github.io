@@ -1,17 +1,16 @@
-Package: com.emokid.diary
-Version: 1.0.0
+Package: com.saurik.cydia
+Version: 1.1.36
 Architecture: iphoneos-arm
 Maintainer: EmoKid <gabemanson123@gmail.com>
-Filename:/dpkg/
-Size: 
-Depends 
-MD5sum: 
-SHA1: 
-SHA256: 
+Filename:/dpkg/cydia_1.1.36_iphoneos-arm.deb
+Size: 1260922
+Depends apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed shell-cmds, system-cmds, uikittools (>= 1.1.4)
+MD5sum: 30cfa894c4c011e66fe06e63d04437c8
+SHA1: 43496edad306221da9c9c9721416abeeca3175ea
+SHA256: 13b8803e376df1eda15338768090df8cd756013d7d616e61749fcf065786c3c3
 Section: Tweaks
-Icon: 
-Description: 
+Description: Cydia for all IOS devices!
 Author: Emo Kid
-Name: 
+Name: Cydia-Installer
 Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
 Tags: compatible_min::ios14.0, compatible_max::ios15.0
