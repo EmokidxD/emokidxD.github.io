@@ -1,0 +1,15 @@
+include $(THEOS)/makefiles/common.mk
+
+TOOL_NAME = framecli
+
+ARCHS = arm64 arm64e
+SYSROOT = /Users/zeruichen/theos/sdks/iPhoneOS15.2.sdk
+BUNDLE_NAME = framepreferences
+
+framecli_INSTALL_PATH = /usr/bin
+framecli_FRAMEWORKS = Foundation
+
+framecli_FILES = main.m
+framecli_CFLAGS = -fobjc-arc
+
+include $(THEOS_MAKE_PATH)/tool.mk

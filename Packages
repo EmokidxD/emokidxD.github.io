@@ -1,17 +1,16 @@
-Package: com.muirey03.smallsiri
-Version: 1.2.2
+Package: com.frame.zx02
+Version: 2.4.4
 Architecture: iphoneos-arm
 Maintainer: EmoKid <gabemanson123@gmail.com>
-Filename:/packages/com.muirey03.smallsiri_1.2.2.deb
-Size: 159466
-Depends mobilesubstrate
-Icon: emokidxD.github.io/All_Categories/Tweaks/com.muirey03.smallsiri/icon@2x.png
-MD5sum: 1ed769c351ed776a0357d98951f34ac4
-SHA1: 762b013a702cd32ef7bdd801b00273b0f85aa0a7
-SHA256: c3be148bb4db81726f209f47599a18138128c0f4433525224be10d565227d114
+Filename:/packages/com.zx02.frame_2.4.4_iphoneos-arm.deb
+Size: 1743036
+Depends: mobilesubstrate,preferenceloader,firmware (>= 15.1.1)
+MD5sum: a234437baa2b4bbd323c8bfe0e76121b
+SHA1: b0fdee67d664df59b4575e097aefab015f08400a
+SHA256: 7814ede6f333db63f0d6ca7c1f75399c5c1a5c15b5b60ab71a7572a9530f1964
 Section: Tweaks
-Description: an updated version of SmallSiri for IOS 15 arm64e (credit for the tweak goes to Muirey03)
-Author: Muirey03
-Name: SmallSiri 🎙️ (Remade)
+Description: Remade version of Frame for IOS 15 much credit to ZX02 (https://zerui18.github.io/zx02/)
+Author: zx02
+Name: Frame
 Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
 Tags: compatible_min::ios14.0, compatible_max::ios15.0
