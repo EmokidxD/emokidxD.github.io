@@ -4,7 +4,7 @@ Device = 0
 
 ifeq ($(SIM), 1)
 	DEBUG = 1
-	TARGET = simulator:clang:latest:15.1.0
+	TARGET = simulator:clang:latest:15.1.1
 	ARCHS = x86_64
 	SYSROOT = /Users/zeruichen/theos/sdks/iPhoneSimulator15.2.sdk
 else
