@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<!-- Banner -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>SMSBannerCell</string>
+		</dict>
+
+		<!-- Tweak Settings -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Position On Screen</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>validValues</key>
+			<array>
+				<string>NO</string>
+				<string>YES</string>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Top</string>
+				<string>Bottom</string>
+			</array>
+			<key>default</key>
+			<string>top</string>
+			<key>defaults</key>
+			<string>com.muirey03.smallsiri</string>
+			<key>key</key>
+			<string>fromBottom</string>
+		</dict>
+
+		<!-- Support links -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>GitHub</string>
+			<key>action</key>
+			<string>openGithub</string>
+			<key>icon</key>
+			<string>githubIcon.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter</string>
+			<key>action</key>
+			<string>openTwitter</string>
+			<key>icon</key>
+			<string>twitterIcon.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SmallSiri</string>
+</dict>
+</plist>

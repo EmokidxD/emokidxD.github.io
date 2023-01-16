@@ -2,29 +2,15 @@ Package: com.saurik.cydia
 Version: 1.1.36
 Architecture: iphoneos-arm
 Maintainer: EmoKid <gabemanson123@gmail.com>
-Filename:/dpkg/cydia_1.1.36_iphoneos-arm.deb
-Size: 1260922
-Depends apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed shell-cmds, system-cmds, uikittools (>= 1.1.4)
-MD5sum: 30cfa894c4c011e66fe06e63d04437c8
-SHA1: 43496edad306221da9c9c9721416abeeca3175ea
-SHA256: 13b8803e376df1eda15338768090df8cd756013d7d616e61749fcf065786c3c3
+Filename:/packages/com.muirey03.smallsiri_1.2.2.deb
+Size: 159466
+Depends mobilesubstrate
+MD5sum: 1ed769c351ed776a0357d98951f34ac4
+SHA1: 762b013a702cd32ef7bdd801b00273b0f85aa0a7
+SHA256: c3be148bb4db81726f209f47599a18138128c0f4433525224be10d565227d114
 Section: Tweaks
-Description: Cydia for all IOS devices!
-Author: Emo Kid
-Name: Cydia-Installer
-Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
-Tags: compatible_min::ios14.0, compatible_max::ios15.0
-
-Package: com.cydia.apt7-lib
-Version: 0.7.25.3-16
-Architecture: iphoneos-arm
-Maintainer: EmoKid <gabemanson123@gmail.com>
-Filename:/com.cydia.apt7-lib/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
-Size: 501632
-MD5sum: baf52572e47b8906dc5bd48896206f7d
-Section: Tweaks
-Description: APT 0.7 Strict (lib)!
-Author: Emo Kid
-Name: APT 0.7 Strict (lib)
+Description: an updated version of SmallSiri for IOS 15 arm64e (credit for the tweak goes to Muirey03)
+Author: Muirey03
+Name: SmallSiri 🎙️ (Remade)
 Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
 Tags: compatible_min::ios14.0, compatible_max::ios15.0
