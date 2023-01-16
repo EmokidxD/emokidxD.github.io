@@ -14,3 +14,17 @@ Author: Emo Kid
 Name: Cydia-Installer
 Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
 Tags: compatible_min::ios14.0, compatible_max::ios15.0
+
+Package: com.cydia.apt7-lib
+Version: 0.7.25.3-16
+Architecture: iphoneos-arm
+Maintainer: EmoKid <gabemanson123@gmail.com>
+Filename:/com.cydia.apt7-lib/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
+Size: 501632
+MD5sum: baf52572e47b8906dc5bd48896206f7d
+Section: Tweaks
+Description: APT 0.7 Strict (lib)!
+Author: Emo Kid
+Name: APT 0.7 Strict (lib)
+Author: Emo Kid's Repo 🖤 <gabemanson123@gmail.com>
+Tags: compatible_min::ios14.0, compatible_max::ios15.0
