@@ -3,11 +3,11 @@ Version: 0.0.4
 Architecture: iphoneos-arm
 Maintainer: EmoKid <gabemanson123@gmail.com>
 Filename:/packages/com.ryannair05.cylinderremade_0.0.4-beta_iphoneos-arm.deb
-Size: 104366
+Size: 501157
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
-MD5sum: e39d20ec8104ed2840cba3eae4b7c1d4
-SHA1: 5cc7aeff823bdee3c1809cfbbc82b68520e495fd
-SHA256: cd9d265ac5918e3b67c19e69e1f2a153aaa8738350195413278e7d2d474bfd72
+MD5sum: e8029dcabfa6bcbbef49a2ed1daaf3ec
+SHA1: 94a1b506bfcdaf1a325eca3ddb6f0d29e19b663d
+SHA256: 7c320c5a8fca8f32438c82f7d10a761464db2935f6a9373c7b3f5e59581bc31b
 Section: Tweaks
 Description: Make your icons dance
 Author: Ryan Nair
