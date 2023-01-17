@@ -8,7 +8,7 @@
 #define SCREEN_SIZE UIScreen.mainScreen.bounds.size
 
 #define PrefsEffectKey        @"effect"
-#define PrefsEffectDirKey  @"effectFolder"
+#define PrefsEffectDirKey  @"effectSelector"
 #define PrefsFormulaKey @"formula"
 #define PrefsSelectedFormulaKey @"selectedFormula"
 #define PrefsCarrierTextKey  @"carrierText"
@@ -21,7 +21,7 @@
 #define PrefsBrokenKey       @"brokenEffects"
 
 #define DEFAULT_EFFECT @"Cube (inside)"
-#define DEFAULT_DIRECTORY @"rweichler"
+#define DEFAULT_SELECTOR @"cubeInside"
 
 #ifndef MAIN_BUNDLE
 #define MAIN_BUNDLE ([NSBundle bundleForClass:NSClassFromString(@"CylinderSettingsListController")])
@@ -30,17 +30,17 @@
 #define SYSTEM_LOCALIZE(KEY) [[NSBundle bundleWithIdentifier:@"com.apple.UIKit"] localizedStringForKey:KEY value:@"" table:nil]
 
 #define IN_SPRINGBOARD()     ([[[NSBundle mainBundle] bundleIdentifier] isEqualToString:@"com.apple.springboard"])
-#define PREFS_PATH           @"/var/mobile/Library/Preferences/com.ryannair05.cylinder.plist"
+#define PREFS_PATH           @"/var/mobile/Library/Preferences/com.ryannair05.cylinderremade.plist"
 #define RETINIZE(r)          [r stringByAppendingString:@"@2x"]
 
-#define kCylinderSettingsChanged         @"com.ryannair05.cylinder/settingsChanged"
-#define kCylinderSettingsRefreshSettings @"com.ryannair05.cylinder/refreshSettings"
+#define kCylinderSettingsChanged         @"com.ryannair05.cylinderremade/settingsChanged"
+#define kCylinderSettingsRefreshSettings @"com.ryannair05.cylinderremade/refreshSettings"
 
 #define BUNDLE_PATH @"/Library/PreferenceBundles/CylinderSettings.bundle/"
 
 #define kEffectsDirectory     @"/Library/Cylinder"
 #define kPacksDirectory      @"/Library/Cylinder/Packs"
-#define DEFAULT_EFFECTS      [NSArray arrayWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:DEFAULT_EFFECT, PrefsEffectKey, DEFAULT_DIRECTORY, PrefsEffectDirKey, nil], nil]
+#define DEFAULT_EFFECTS      [NSArray arrayWithObjects:[NSDictionary dictionaryWithObjectsAndKeys:DEFAULT_EFFECT, PrefsEffectKey, DEFAULT_SELECTOR, PrefsEffectDirKey, nil], nil]
 #define DEFAULT_FORMULAS    [NSDictionary dictionary]
 #define DefaultPrefs         [NSMutableDictionary dictionaryWithObjectsAndKeys: DEFAULT_EFFECTS, PrefsEffectKey, DEFAULT_FORMULAS, PrefsFormulaKey, [NSNumber numberWithBool:YES], PrefsEnabledKey, [NSNumber numberWithBool:false], PrefsRandomizedKey, nil]
 
