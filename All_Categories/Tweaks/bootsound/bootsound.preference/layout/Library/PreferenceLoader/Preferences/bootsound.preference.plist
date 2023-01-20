@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd%22%3E
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>On Silent Mode</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.emokixd.bootsound.preference</string>
+            <key>key</key>
+            <string>silentOn</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>label</key>
+            <string>Play Early</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.emokixd.bootsound.preference</string>
+            <key>key</key>
+            <string>earlyPlay</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>default</key>
+            <real>1.0</real>
+            <key>min</key>
+            <real>0.0</real>
+            <key>max</key>
+            <real>1.0</real>
+            <key>defaults</key>
+            <string>com.emokixd.bootsound.preference</string>
+            <key>key</key>
+            <string>volume</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>label</key>
+            <string>Choose Sound</string>
+        </dict>
+        <dict>
+            <key>cell</key>
+            <string>PSLinkListCell</string>
+            <key>detail</key>
+            <string>CPrefsViewController</string>
+            <key>key</key>
+            <string>choosefunctions</string>
+            <key>label</key>
+            <string>Sounds</string>
+        </dict>
+    </array>
+    <key>title</key>
+    <string>BootSound</string>
+</dict>
+</plist>

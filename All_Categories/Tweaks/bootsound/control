@@ -1,0 +1,9 @@
+Package: com.emokidxD.bootsound
+Name: BootSound
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Bootsound supported for IOS 14 - 15!
+Maintainer: emo kid
+Author: emo kid
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
