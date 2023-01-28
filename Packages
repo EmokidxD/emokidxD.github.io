@@ -1,16 +1,16 @@
-Package: com.zx02.frame
-Version: 2.4.2
+Package: com.emokidxd.bootsound
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: EmoKid <gabemanson123@gmail.com>
-Filename:/debs/com.zx02.frame_2.4.2_iphoneos-arm.deb
-Size: 1740536
-Depends: mobilesubstrate,preferenceloader,firmware (>= 15.1.9)
-MD5sum: d102a41d5fa804f009b6218e359943f9
-SHA1: 67105b6ab689d82ee6ad5a5686cc92339fd31f86
-SHA256: f34f1eac5d2af3495c26dd4e49534fbd4c59880f48807023c5f198bd29b24e5f
+Filename:/debs/com.emokidxd.bootsound_1.0.0_iphoneos-arm.deb
+Size: 451614
+Depends: mobilesubstrate,ws.hbang.common,firmware (>= 15.2)
+MD5sum: ace274042ef9fe25bf3ae06ac7137b3b
+SHA1: 45270fbf8fa0db07f64fdf4ad6424c34ae49c279
+SHA256: b584df354b29aff3935be1a3ffd6e3298ee1684076498ddc2d271e9F74b0e0fd
 Section: Tweaks
-Description: iOS tweak for video wallpaper.
-Author: Zerui18
-Name: Frame
+Description: Make your device a sound (IOS 14+)
+Author: EmoKid
+Name: BootSound
 Author: Emo Kid's Repo <gabemanson123@gmail.com>
 Tags: compatible_min::ios14.0, compatible_max::ios15.0
