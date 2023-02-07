@@ -1,8 +1,8 @@
 Package: com.emokidxd.bootsound
 Name: BootSound
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Make your device a sound (supports iOS 14 -15)
+Description: Make your device play a sound (supports iOS 14-15)
 Maintainer: Emo Kid's Repo
 Author: Emo Kid's Repo
 Section: Tweaks

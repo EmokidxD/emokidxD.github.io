@@ -3,6 +3,6 @@
 #include <CepheiPrefs/HBAppearanceSettings.h>
 #include "HBRespringController.h"
 
-@interface XXXRootListController : HBListController
+@interface BootSound : HBListController
 -(void)Respring;
 @end

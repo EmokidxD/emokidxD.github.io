@@ -5,11 +5,11 @@ Maintainer: EmoKid <gabemanson123@gmail.com>
 Filename:/debs/com.emokidxd.bootsound_1.0.0_iphoneos-arm.deb
 Size: 451614
 Depends: mobilesubstrate,ws.hbang.common
-MD5sum: ace274042ef9fe25bf3ae06ac7137b3b
-SHA1: 45270fbf8fa0db07f64fdf4ad6424c34ae49c279
-SHA256: b584df354b29aff3935be1a3ffd6e3298ee1684076498ddc2d271e9F74b0e0fd
+MD5sum: 1e68cfdeda9bfc7fe00573e59d672f5a
+SHA1: de91a1d555557894cb6c1ea3f5303e9950d35ebb
+SHA256: 8fe60fe3367dab83e77b3575b171e53c1590be08dca4eeb669adecf87f5a6c13
 Section: Tweaks
-Description: Make your device a sound (IOS 14+)
+Description: custom sounds can be found in /var/library/audio/BootSound
 Author: EmoKid
 Name: BootSound
 Author: Emo Kid's Repo <gabemanson123@gmail.com>
