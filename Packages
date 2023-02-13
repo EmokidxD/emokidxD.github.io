@@ -9,7 +9,7 @@ MD5sum: cebf2688937583eebaf733fdb7c792a0
 SHA1: f93aee011520adc4858ddf6e9fa10220a1ce1a2f
 SHA256: 1e3469d1a7a3d9ec4a9ca07355d5e999c683a18f8a5f5192c0cfe5ace804fb71
 Section: Tweaks
-Description: custom sounds can be found in /var/library/audio/BootSound (.caf files ONLY)
+Description: Custom sounds can be found in /var/mobile/Documents/BootSounds (.caf files ONLY)
 Author: EmoKid
 Name: BootSound
 Author: Emo Kid's Repo <gabemanson123@gmail.com>
