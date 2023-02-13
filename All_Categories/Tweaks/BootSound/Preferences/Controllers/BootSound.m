@@ -4,7 +4,7 @@ extern char **environ;
 
 @implementation BootSound
 -(NSArray *)soundFiles {
-	NSString *bundleRoot = [[NSBundle bundleWithPath:@"/var/Library/Audio/BootSound/"] bundlePath];
+	NSString *bundleRoot = [[NSBundle bundleWithPath:@"/var/mobile/Documents/BootSound/"] bundlePath];
 	NSFileManager *fm = [NSFileManager defaultManager];
 	NSArray *allFiles = [fm contentsOfDirectoryAtPath:bundleRoot error:nil];
 

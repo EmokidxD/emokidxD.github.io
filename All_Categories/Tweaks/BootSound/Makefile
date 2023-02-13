@@ -1,12 +1,10 @@
-export ARCHS = armv7s arm64 arm64e
-#export TARGET = iphone:latest:15.2
+export ARCHS = arm64 arm64e
+export TARGET = iphone:clang:14.4:13.0
+export SYSROOT = $(THEOS)/sdks/iPhoneOS14.4.sdk
+# export PREFIX = $(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
 
 INSTALL_TARGET_PROCESSES = SpringBoard
-TWEAK_NAME = BootSound
-$(TWEAK_NAME)_FILES = Tweak.x
-
-SUBPROJECTS += bootsoundprefs
+SUBPROJECTS = Tweak Preferences
 
 include $(THEOS)/makefiles/common.mk
-include $(THEOS_MAKE_PATH)/tweak.mk
 include $(THEOS_MAKE_PATH)/aggregate.mk

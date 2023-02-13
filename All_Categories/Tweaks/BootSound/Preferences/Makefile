@@ -4,7 +4,7 @@ include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = BootSoundPrefs
 
-$(BUNDLE_NAME)_FILES = BootSound.m
+$(BUNDLE_NAME)_FILES = $(wildcard Controllers/*.m)
 $(BUNDLE_NAME)_FRAMEWORKS = UIKit CoreGraphics AudioToolbox
 $(BUNDLE_NAME)_PRIVATE_FRAMEWORKS = Preferences
 $(BUNDLE_NAME)_EXTRA_FRAMEWORKS += Cephei CepheiPrefs

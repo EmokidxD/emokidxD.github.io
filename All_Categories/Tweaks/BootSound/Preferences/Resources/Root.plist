@@ -31,21 +31,13 @@
 			<string>Enabled</string>
 		</dict>
         <dict>
-        <key>cell</key>
-        <string>PSLinkListCell</string>
-		 <key>defaults</key>
-		 <string>com.emokidxd.bootsoundprefs</string>
-        <key>detail</key>
-        <string>PSListItemsController</string>
-		 <key>key</key>
-		 <string>soundFromList</string>
-        <key>label</key>
-        <string>Sounds</string>
-        <key>valuesDataSource</key>
-        <string>soundValues</string>
-        <key>titlesDataSource</key>
-        <string>soundTitles</string>
-    </dict> 
+            <key>cell</key>
+ 			<string>PSLinkCell</string>
+ 			<key>label</key>
+ 			<string>Sounds</string>
+ 			<key>detail</key>
+ 			<string>BootSoundsListController</string>
+       </dict> 
 		<dict>
 			<key>action</key>
 			<string>Respring</string>
@@ -86,7 +78,7 @@
 			<key>footerAlignment</key>
 			<real>1</real>
 			<key>footerText</key>
-			<string>Thanks to @Randy420 for helping me out creating my VERY first tweak!</string>
+			<string>Thanks to @Randy420 and Alexandra (@Traurige) for helping me out creating my VERY first tweak!</string>
 			<key>isStaticText</key>
 			<true/>
 		</dict>
