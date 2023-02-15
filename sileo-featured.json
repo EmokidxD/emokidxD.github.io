@@ -10,10 +10,4 @@
          "hideShadow":false
       },
       {  
-         "url":"url of banner image",
-         "title":"title of banner",
-         "package":"bundle id of package",
-         "hideShadow":false
-      },
-   ]
 }
