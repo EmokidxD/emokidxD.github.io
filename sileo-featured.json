@@ -1,12 +1,19 @@
-{
-    "class": "FeaturedBannersView",
-    "itemSize": "{263, 148}",
-    "itemCornerRadius": 10,
-    "banners": [{
-        "url": "https://ibb.co/440XB78",
-        "title": "BootSound",
-        "package": "com.emokidxd.bootsound",
-        "hideShadow": false
-    }, {
-		
+{  
+   "class":"FeaturedBannersView",
+   "itemSize":"{263, 148}",
+   "itemCornerRadius":10,
+   "banners":[  
+      {  
+         "url":"https://ibb.co/440XB78",
+         "title":"BootSound",
+         "package":"com.emokidxd.bootsound",
+         "hideShadow":false
+      },
+      {  
+         "url":"url of banner image",
+         "title":"title of banner",
+         "package":"bundle id of package",
+         "hideShadow":false
+      },
+   ]
 }
