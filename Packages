@@ -3,11 +3,11 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: EmoKid <gabemanson123@gmail.com>
 Filename:/debs/com.emokidxd.bootsound_1.0.0_iphoneos-arm.deb
-Size: 494114 
+Size: 71130 
 Depends: mobilesubstrate,ws.hbang.common
-MD5sum: cebf2688937583eebaf733fdb7c792a0
-SHA1: f93aee011520adc4858ddf6e9fa10220a1ce1a2f
-SHA256: 1e3469d1a7a3d9ec4a9ca07355d5e999c683a18f8a5f5192c0cfe5ace804fb71
+MD5sum: f2fa42f1911966eee0e4714687e8f2d8
+SHA1: 20874eaef818d3f595d9fef6c233399756e99b34
+SHA256: c8d81e0ccbccb55aa04b4d9d055d2b86ee3a7654104a3e4cd9d4b0511fcf2e67
 Section: Tweaks
 Description: Custom sounds can be found in /var/mobile/Documents/BootSounds (.caf files ONLY)
 Author: EmoKid
