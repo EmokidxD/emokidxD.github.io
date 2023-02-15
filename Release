@@ -6,7 +6,3 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: we live we die
-
-SHA256:
-bf7450e859eb52e71c85fe4c39e8fac9131bda923b3689a797ec8559eeb1ab84 494114 Packages.xz
-380eaf0c78aa9d3ec3a509db062b70d15268dc986545abc147824d8265433a44 512 Packages.bz2
